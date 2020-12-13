@@ -72,7 +72,7 @@ function doubleArray(arr) {
  *    [] => []
  */
 function getArrayOfPositives(arr) {
-  arr.filter((e) => e > 0);
+  return arr.filter((e) => e > 0);
 }
 
 /**
